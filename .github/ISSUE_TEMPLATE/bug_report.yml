@@ -1,14 +1,12 @@
 name: Bug Report
-title: "[Bug]: "
+title: '[Bug]: '
 description: File a bug report
 labels: [Bug]
 body:
     - type: markdown
       attributes:
+          label: Before submitting, please make sure you're using the latest version.
           value: '# Bug Report Forum'
-    - type: markdown
-      attributes:
-          value: 'Before submitting, please make sure you're using the latest version.'
 
     - type: input
       id: discord_user
@@ -17,7 +15,7 @@ body:
           description: Your discord username is required in order to include the name of the reporter when fixing a bug.
           placeholder: ex. username#1234
       validations:
-          required: true      
+          required: true
 
     - type: textarea
       id: details
