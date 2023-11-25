@@ -5,7 +5,6 @@ labels: [Bug]
 body:
     - type: markdown
       attributes:
-          label: Before submitting, please make sure you're using the latest version.
           value: '# Bug Report Forum'
 
     - type: input
@@ -13,7 +12,7 @@ body:
       attributes:
           label: Discord Username
           description: Your discord username is required in order to include the name of the reporter when fixing a bug.
-          placeholder: ex. username#1234
+          placeholder: Ex) testuser123
       validations:
           required: true
 
@@ -21,7 +20,7 @@ body:
       id: details
       attributes:
           label: Bug details
-          description: Explain here clearly and concisely what the bug is and what happened.
+          description: Explain here clearly and concisely what the bug is and what happened. (Before submitting, please make sure you're using the latest version.)
       validations:
           required: true
 
